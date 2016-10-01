@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="ruleDetail">RULES of the GAME:\n
+
+1. The user is shown 20 tiles. Hidden below these tiles are 10 random images (use your own) each repeated twice.\n
+
+2. The user can touch on any two tiles. Touching on a tile will show the image.\n
+
+3. If the two tiles have matching images, they disappear (Use a check or something to indicate it is already matched). The user gets a point.\n
+
+4. If the two tiles do NOT have matching images, they flip over to being tiles again (flip animation not required).\n
+
+5. Hitting the back soft key while playing will take the user back to the first screen (happens automatically). Trying to play should restore the playing activity to the previous state (may need some state handling). That is, if I hit back after matching say 10 tiles, and return to playing, it should show me the remaining 10 cards to match. </string>
+    <string name="memory_game">Memory Game</string>
+    <string name="cover">cover</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
