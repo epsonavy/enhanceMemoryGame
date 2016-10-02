@@ -1,2 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/EPSO/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_678b290df92e4fd25a06efd58835780b04036dc4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ce5d2ee435ececafabd707601ee827638d532579/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_c21954a4ccfe00b8fa3e63487019e1b320e70bdb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="52962cecf058e19586e6f2cea9a9c4b062cda117">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9aa155ff6f0682c6c079f9b63d2862459f6b23c7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f54d2ad8da1d60a5c00dbffeadd94e248602a89b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5d94313b1d0dae59107e9a1ea1dbc393685a032d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.easing-library-1.0.1_abe70099e5c8a4e562ecddecd1d80212b400a96b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_613ecae627789bebdc655944a021967f0b4d63c0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_5a2bb22d0677b43cc6d5310e2d15fbec86f78753/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.androidanimations-library-1.1.3_5d8e8c648e4ff77399aaef694112c1c59cec322e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_319eef22b2355572a5049c7c695e004708ab151f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_ad3f736835469f4dd53c1e10cf77e03c765fa37d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_5bc6197cda712aa984146393803cb3ab05a3e5dd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e44329113c410085df64d6e97daf9a56c1c2ec34">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6850f0713e48c4b9abe72fe67ae72eabf3dcbfda/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_22cb0485cbe0ea479390dffd33734cc0af319e34/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_eea5a958bf3a62dfb71b908df69df8d74a81530a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_adb4e53af2cf30e03be757a97db2ee347abe1a75/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f438d95cd8a2f2c093b06250ca8a50dda23a6ed2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_7d6742b5725f90a5958fd15093272135a16c8fa8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_a67e8b9b6ec2a905db0e08978b80d76fb325851b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_abddd3f8ae03d76243e9ab09324c7388139e14c6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/EPSO/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/EPSO/AndroidStudioProjects/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_0bbd8437cd49b82773520a01f0fc79fb15e98673/classes.dex" />
+    </item>
+
+</items>

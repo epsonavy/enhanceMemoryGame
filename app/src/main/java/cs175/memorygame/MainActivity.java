@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.playbtn)
     public void onClickPlay(View v) {
-        if(((MyApp)getApplication()).getBoolean() == true ) {
+        final DataSingleton singleton = DataSingleton.getInstance();
+
+        if(singleton.renewBoolean == true ) {
             PopupMenu popup = new PopupMenu(MainActivity.this, findViewById(R.id.playbtn));
             //Inflating the Popup using xml file
             popup.getMenuInflater().inflate(R.menu.popup_menu2, popup.getMenu());
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                 public boolean onMenuItemClick(MenuItem item) {
                     if (item.getTitle().equals("Start Over"))
-                        ((MyApp)getApplication()).storeBoolean(false);
+                        singleton.renewBoolean = false;
 
                     Intent play = new Intent(MainActivity.this, PlayGround.class);
                     startActivity(play);

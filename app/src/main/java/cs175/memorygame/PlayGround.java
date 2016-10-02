@@ -109,7 +109,11 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
     // current flip tile
     private int currentFlip = 0;
 
+    // Data singleton to save all data
+    private DataSingleton singleton;
+
     @BindView(R.id.menu_btn) Button menuBtn;
+    @BindView(R.id.score) TextView s;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,12 +121,13 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
         setContentView(R.layout.activity_playground);
         ButterKnife.bind(this);
 
-        resumeStatus = ((MyApp) getApplication()).getBoolean();
-        shuffleStatus = ((MyApp) getApplication()).getShuffle();
+        singleton = DataSingleton.getInstance();
+        resumeStatus = singleton.renewBoolean;
+        shuffleStatus = singleton.shuffle;
 
         if (shuffleStatus) {
-            randomHM = ((MyApp) getApplication()).getHM();
-            vanishHM = ((MyApp) getApplication()).getVanishHM();
+            randomHM = singleton.randomHM;
+            vanishHM = singleton.vanishHM;
             shuffle(randomHM, vanishHM);
         }
 
@@ -145,10 +150,9 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
                 btns[i].setImageResource(R.drawable.back);
                 ary.remove(index);
             } else {
-                randomHM = ((MyApp) getApplication()).getHM();
+                randomHM = singleton.randomHM;
+                vanishHM = singleton.vanishHM;
                 btns[i].setImageResource(R.drawable.back);
-                vanishHM = ((MyApp) getApplication()).getVanishHM();
-
             }
 
             btns[i].setOnClickListener(this);
@@ -160,9 +164,10 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
                 ImageButton myBtn = (ImageButton) findViewById(key);
                 myBtn.setVisibility(View.INVISIBLE);
             }
-            score = ((MyApp) getApplication()).getScore();
+            score = singleton.score;
             updateScore();
-            currentFlip = ((MyApp) getApplication()).getCurrentOpen();
+
+            currentFlip = singleton.currentOpen;
             if (currentFlip != 0) {
                 ImageButton myBtn = (ImageButton) findViewById(currentFlip);
                 myBtn.setImageResource(randomHM.get(currentFlip));
@@ -194,8 +199,8 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
 
 
     @OnClick(R.id.menu_btn)
-    public void onClickMenu(View v) {
-        PopupMenu popup = new PopupMenu(PlayGround.this, findViewById(R.id.menu_btn));
+    public void onClickMenu(final View v) {
+        PopupMenu popup = new PopupMenu(PlayGround.this, menuBtn);
         //Inflating the Popup using xml file
         popup.getMenuInflater().inflate(R.menu.popup_menu, popup.getMenu());
 
@@ -203,16 +208,16 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             public boolean onMenuItemClick(MenuItem item) {
                 if (item.getTitle().equals("Start Over")) {
-                    ((MyApp)getApplication()).storeBoolean(false);
+                    singleton.renewBoolean = false;
                     recreate();
                 }
                 if (item.getTitle().equals("Shuffle")) {
-                    ((MyApp)getApplication()).storeBoolean(true);
-                    ((MyApp) getApplication()).storeHM(randomHM);
-                    ((MyApp) getApplication()).storeVanishHM(vanishHM);
-                    ((MyApp) getApplication()).storeScore(score);
-                    ((MyApp) getApplication()).storeCurrentOpen(currentFlip);
-                    ((MyApp)getApplication()).storeShuffle(true);
+                    singleton.renewBoolean = true;
+                    singleton.randomHM = randomHM;
+                    singleton.vanishHM = vanishHM;
+                    singleton.score = score;
+                    singleton.currentOpen = currentFlip;
+                    singleton.shuffle = true;
                     recreate();
                 }
                 return true;
@@ -323,18 +328,18 @@ public class PlayGround extends AppCompatActivity implements View.OnClickListene
     }
 
     private void updateScore() {
-        TextView s = (TextView) findViewById(R.id.score);
         s.setText(String.valueOf(score));
     }
 
     @Override
     public void onBackPressed() {
         // Store all data if player want to resume the game;
-        ((MyApp) getApplication()).storeBoolean(true);
-        ((MyApp) getApplication()).storeHM(randomHM);
-        ((MyApp) getApplication()).storeVanishHM(vanishHM);
-        ((MyApp) getApplication()).storeScore(score);
-        ((MyApp) getApplication()).storeCurrentOpen(currentFlip);
+        singleton.renewBoolean = true;
+        singleton.randomHM = randomHM;
+        singleton.vanishHM = vanishHM;
+        singleton.score = score;
+        singleton.currentOpen = currentFlip;
+        singleton.shuffle = shuffleStatus;
         super.onBackPressed();
     }
 
