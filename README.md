@@ -1,8 +1,11 @@
 Enhance Memory Game
-
+===================
 Name: Pei Lian Liu
+
 Email: epsonavy@yahoo.com
+
 Group/Individual: Individual Work
+
 Time Consumption: 6 hours
 
 To run this application, you must use Android Studio. 
